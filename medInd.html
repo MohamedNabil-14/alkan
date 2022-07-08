@@ -1,0 +1,211 @@
+<html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alkan</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    
+  </head>
+    <body>
+    <!-- navbar     -->
+    <header id="medInd" class="w-100">
+      <nav class="navbar navbar-expand-lg navbar-dark nav fixed-top col-md-12">
+        <div class="container-fluid position-relative ">
+          <div class="form-group ">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" width="80" height="70" class="d-inline-block align-top" alt="alkan">
+              <span style="font-size:14px;" class="text-B d-inline-flex px-2 py-4 justify-content-center align-top">Alkan E-Commerce</span></a>
+            </div>
+            <div class="form-group nav-item">
+            <a class="navbar nav-item" href="login.html" ><span style="font-size:14px;"  class="text-B">تسجيل الدخول</span>
+              <img src="images/enter.png" width="50" height="50" class="d-inline-flex align-top p-2"> </a>
+            </div>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item form-group">
+                      <button class="bg-transparent text-B" type="submit"><i class="fas fa-search"></i></button>
+                      <input class="border border-primary" type="text" id="searcher" placeholder="بحث...." name="searcher">
+                    </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-primary text-B" href="index.html">الرئيسية</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-primary text-B" href="#ind" id="navbarDropdown"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    تأمينات الأفراد
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="medInd.html">التأمين الطبي</a></li>
+                    <li><a class="dropdown-item" href="carInd.html">تأمين السيارات</a></li>
+                    <li><a class="dropdown-item" href="lifeInd.html">تأمين الحياة</a></li>
+                    <li><a class="dropdown-item" href="propInd.html">تأمين الممتلكات</a></li>
+                    <li><a class="dropdown-item" href="savInd.html">تأمين حماية وادخار</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-primary text-B" href="#comp" id="navbarDropdown"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                تأمينات الشركات 
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="medComp.html">التأمين الطبي</a></li>
+                    <li><a class="dropdown-item" href="lifeComp.html">تأمين الحياة</a></li>
+                    <li><a class="dropdown-item" href="propComp.html">تأمين الممتلكات</a></li>
+               
+            
+                    <!-- <a class="nav-link dropdown-toggle text-dark" href="#smComp" id="navbarDropdown"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      شركات صغيرة ومتوسطة
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="medSmComp.html">التأمين الطبي</a></li>
+                      <li><a class="dropdown-item" href="lifeSmComp.html">تأمين الحياة</a></li>
+                      <li><a class="dropdown-item" href="propSmComp.html">تأمين الممتلكات</a></li>
+                    </ul> -->
+                  </ul>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary text-B" href="financial.html">الهيئة العامة للرقابة المالية</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-primary text-B" href="about.html">عن ألكان</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary text-B" href="contact.html">تواصل معنا</a>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+          <!-- carousel -->
+          <div id="carouselExampleSlidesOnly" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="layer layer-cover"  src="images/doctor2.jpg">
+                <!-- <div class="carousel-caption d-flex justify-content-center">
+                    <h1 class="display-3">التأمين الطبي</h1>
+                  </div> -->
+              </div>
+            </div>
+          </div>
+         </div>
+        
+ </header>
+<section id="medInd" class="container text-right col-md-12">
+
+<div class="container d-inline-flex  mx-3"> 
+  <!-- <div class="  d-block-flex align-items-start ml-auto ">
+    <div class=" d-block-flex pt-5 ">
+      <button class="d-flex px-5  btn btn-info">التأمين الصحي المحلي</button> -->
+      <div class=" d-block-flex text-right mt-5 ">
+        <h3 class="text-primary">التأمين الطبى</h3>
+         <p class="cont">
+             خطة حماية ليك  و لأسرتك لتخفيف الأعباء المتوقعة نتيجة مرض أى فرد من أسرتك
+             <br>
+            بدل ما تفكر فى مبلغ الكشف، فكر فى المكان اللى محتاج تتعالج فيه </p>
+       </div>
+</div>
+      <!-- </div>  -->
+  <!-- <div class="d-block-flex align-items-start mr-5 col-md-6">
+       <div class=" d-block-flex pt-5 ">
+        <button class="d-flex px-5  btn btn-info">التأمين الصحي الدولي</button>
+      </div>
+  </div>
+</div> -->
+ 
+
+<div class="container text-right py-2 col-md-12">
+  <h3 class=" col-md-6 text-primary">التغطيات و المميزات</h3>
+   <p class="cont col-md-12 mt-3">
+      تختلف التغطيات من بين الوثائق الطبية المتاحة كما تختلف بين شركات التأمين.
+          <br>
+        وثائق التأمين الطبي يغطي (داخل الشبكة الطبية):
+          <br>
+        العلاج الداخلي في المستشفيات ويشمل اجراء الجرحات (يوم واحد) أو جراحات طويلة
+          <br>
+       وبالاضافة إلي العلاج الداخلي ،تغطي الكشف والأدوية وخدمات الأشعة والتحاليل ،خدمات الأسنان والنظارات ،متابعة الحمل والولادة
+          <br>
+        ويمكنك استشارة طبيبك الخاص أو التوجه لأقرب مستشفي أو معمل أو مركز أشعة (خارج الشبكة الطبية) ،ويمكنك استرداد قيمة النفقات بحسب أسعار التعاقد مع مختلف مقدمي الخدمة
+        </p>
+      <!-- بشكل عام تغطى وثيقة التأمين الطبى ما يلى (وفقا لنسبة التحمل المقررة فى الوثيقة): 
+      <ol class="mx-4 col-md-9 cont">
+          <li>الكشف و الأدوية و الأشعة و التحاليل.</li>
+          <li>العلاج و الاقامة داخل المستشفيات.</li>
+          <li>العمليات الجراحية المتنوعة.</li>
+          <li>تغطية الأسنان و البصريات (وفقا لشروط الوثيقة).</li>
+          <li>الحمل و الولادة (وفقا لشروط الوثيقة).</li>
+      </ol>
+      <p class="col-md-9 cont">و لا تتضمن وثيقة التأمين الطبى عمليات التجميل</p> -->
+ </div>
+ <div class="container text-right  col-md-12 ">
+  <h3 class=" mt-2 col-md-6 text-primary">و ينقسم التأمين الطبى من حيث التغطية الجغرافية الى:</h3>
+ </div>
+
+ <div class="container d-inline-flex col-md-12"> 
+  <div class="  d-block-flex align-items-start ml-auto ">
+      <div class=" d-block-flex text-right py-2 ">
+        <h4 class="col-md-6 text-primary display-5">تأمين طبى محلى</h4>
+        <ul class=" cont mt-4">
+          <li>يقدم لك الحماية داخل جمهورية مصر العربية وفقا للشبكة الطبية المقررة داخل الوثيقة.</li>
+          <li>تحميك فى حالة الاستقرار داخل مصر و عدم الرغبة فى العلاج بالخارج.</li>
+          <li>قيمة الاشتراك بالعملة المحلية.</li>
+          <li>يوجد تأمين أفراد - مجموعات كبيرة - مجموعات صغيرة SME'S.</li>
+        </ul>
+       </div>
+  </div>
+  <div class="d-block-flex align-items-start " id="medInsGl">
+        <div class=" d-block-flex text-right  py-2">
+          <h4 class="col-md-6 display-5 text-primary" >تأمين طبى دولي</h4>
+          <ul class="cont mt-4">
+            <li>يقدم لك الحماية داخل و خارج جمهورية مصر العربية وفقا للشبكة الطبية المقررة داخل الوثيقة.</li>
+            <li>تحميك فى حالة السفر الدورى أو فى حالة الرغبة فى العلاج خارج مصر.</li>
+            <li>قيمة الاشتراك بالعملة الاجنبية.</li>
+            <li>يوجد تأمين أفراد - مجموعات كبيرة - مجموعات صغيرة SME'S.</li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+ <!-- <div class="container text-right col-md-12 mx-5 my-3">
+  <h3 class=" ml-auto col-md-6 text-primary">معايير قيمة الاشتراك للتأمين الصحى</h3>
+  <ol class="mx-4 col-md-12 cont my-3">
+      <li>سن المشترك.</li>
+      <li>التغطيات و الحد الأقصى للتغطية السنوية.</li>
+      <li>المميزات الاضافية (الحمل و الولادة، الأسنان، البصريات).</li>
+  </ol>
+ </div> -->
+ <div class="d-flex justify-content-center flex-row ">
+  <div class="m-3"><button class="px-5 btn btn-info p-2 "><a class="text-light" href="contact.html"> تواصل معنا </button></a></div> 
+   <div class="m-3"><button class="px-5 btn btn-info p-2 "><a class="text-light" href="typeIns.html"> طلب التأمين </button></a></div>
+  </div>
+
+</div>
+
+
+</section>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
